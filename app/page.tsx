@@ -19,10 +19,10 @@ const Home = () => {
                         in, iste illum nobis beatae eveniet dolor explicabo animi totam.
                     </p>
                     <div className='mt-4 flex space-x-5 w-full'>
-                        <button className='bg-gradient-to-r from-[#95000A] via-[#F70413] to-[#8E000A] text-stone-50 w-[140px] md:w-1/3 py-2 md:py-3 rounded-lg font-normal md:font-semibold mt-4 md:mt-8'>
+                        <button className='bg-gradient-to-r from-[#95000A] via-[#F70413] to-[#8E000A] text-stone-50 w-[140px] md:w-1/3 py-2 md:py-3 rounded-lg font-normal md:font-semibold mt-4 md:mt-8 shadow-sm shadow-white/50'>
                             Download Cv
                         </button>
-                        <button className='bg-gradient-to-r from-[#100F0F] via-[#001FE0] to-[#001897] text-stone-50 w-[140px] md:w-1/3 py-2 md:py-3 rounded-lg font-normal md:font-semibold mt-4 md:mt-8'>
+                        <button className='bg-gradient-to-r from-[#100F0F] via-[#001FE0] to-[#001897] text-stone-50 w-[140px] md:w-1/3 py-2 md:py-3 rounded-lg font-normal md:font-semibold mt-4 md:mt-8 shadow-sm shadow-white/50'>
                             Projects
                         </button>
                     </div>
