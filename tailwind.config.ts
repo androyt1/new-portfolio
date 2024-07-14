@@ -20,6 +20,9 @@ module.exports = {
                 buffalo: ["var(--font-buffalo)"],
                 annabel: ["var(--font-annabel)"],
             },
+            animation: {
+                "spin-slow": "spin 6s linear infinite",
+            },
         },
     },
     plugins: [],
