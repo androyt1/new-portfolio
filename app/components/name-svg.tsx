@@ -41,7 +41,7 @@ const NameSvg = () => {
             <circle cx='100' cy='100' r='75' fill='none' stroke='#111827' />
 
             <text fill='white' fontSize='15' fontFamily='Arial'>
-                <textPath href='#circlePath' startOffset='0'>
+                <textPath href='#circlePath' startOffset='0' className='font-semibold'>
                     A g h o g h o v w i a A n d r e w A g h o g h o v w i a A n d r e w
                 </textPath>
             </text>
