@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Setup from "../models/Scene";
 import { Canvas } from "@react-three/fiber";
