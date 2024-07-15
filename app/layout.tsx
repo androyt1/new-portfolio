@@ -10,11 +10,6 @@ const inter = Inter({
     variable: "--font-inter",
 });
 
-const hunaiza = localFont({
-    src: "../public/fonts/Hunaiza.ttf",
-    display: "swap",
-    variable: "--font-hunaiza",
-});
 const carnivalee = localFont({
     src: "../public/fonts/carnivalee.ttf",
     display: "swap",
@@ -25,12 +20,6 @@ const buffalo = localFont({
     src: "../public/fonts/buffalo.ttf",
     display: "swap",
     variable: "--font-buffalo",
-});
-
-const annabel = localFont({
-    src: "../public/fonts/annabel.ttf",
-    display: "swap",
-    variable: "--font-annabel",
 });
 
 export const metadata: Metadata = {
@@ -45,8 +34,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang='en'>
-            <body
-                className={`${inter.variable} ${hunaiza.variable} ${carnivalee.variable} ${buffalo.variable} ${annabel.variable}`}>
+            <body className={`${inter.variable}  ${carnivalee.variable} ${buffalo.variable} `}>
                 <div className='min-h-screen flex flex-col w-full bg-white'>
                     <Navbar />
                     <main className='flex-1 flex flex-col  w-full  '>{children}</main>
